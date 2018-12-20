@@ -22,7 +22,7 @@ public class GetLinkeDinDataIntoExcel extends TestBase {
 	
 	@Test(priority= 0)
 	public static void setup() {
-		
+		System.out.println("========Checkin to Git repository===============");
 		LoginLinkedin();		
 	}
 
